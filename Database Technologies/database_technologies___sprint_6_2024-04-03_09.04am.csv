@@ -1,0 +1,37 @@
+﻿Key,Issue Type,Parent,Summary,Status,Assignee,Sprint,Start date,Inferred start date,Due date,Inferred due date,Issue color
+DTS6-2,Epic,,Week00,To Do,,,29/01/2024,29/01/2024,08/02/2024,08/02/2024,purple
+DTS6-12,Story,DTS6-2,Induction Session - Information Evening,Done,,DTS6 Sprint 6,,29/01/2024,,18/04/2024,purple
+DTS6-3,Epic,,Week01,To Do,,,08/02/2024,08/02/2024,15/02/2024,15/02/2024,purple
+DTS6-14,Story,DTS6-3,Data dictionary - for college database,Done,,DTS6 Sprint 6,,29/01/2024,,18/04/2024,purple
+DTS6-16,Story,DTS6-3,Insert the data from the demo and the files on Teams,Done,,DTS6 Sprint 6,,29/01/2024,,18/04/2024,purple
+DTS6-15,Story,DTS6-3,Create the mysql database and the tables,Done,,DTS6 Sprint 6,,29/01/2024,,18/04/2024,purple
+DTS6-13,Story,DTS6-3,Create the ERD for college - io.draw,Done,,DTS6 Sprint 6,,29/01/2024,,18/04/2024,purple
+DTS6-4,Epic,,BREAK WEEK,To Do,,,15/02/2024,15/02/2024,22/02/2024,22/02/2024,purple
+DTS6-5,Epic,,Week02,To Do,,,22/02/2024,22/02/2024,29/02/2024,29/02/2024,purple
+DTS6-18,Story,DTS6-5,Attempt the ERD and suggest the relationships for the system,Done,,DTS6 Sprint 6,,29/01/2024,,18/04/2024,purple
+DTS6-17,Story,DTS6-5,Use NOUN technique against the case study,Done,,DTS6 Sprint 6,,29/01/2024,,18/04/2024,purple
+DTS6-19,Story,DTS6-5,Data dictionary for the system on the excel template,Done,,DTS6 Sprint 6,,29/01/2024,,18/04/2024,purple
+DTS6-6,Epic,,Week03,To Do,,,29/02/2024,29/02/2024,07/03/2024,07/03/2024,purple
+DTS6-24,Story,DTS6-6,Run the basic sql command in the worksheet and provide PROOF,Done,,DTS6 Sprint 6,,29/01/2024,,18/04/2024,purple
+DTS6-20,Story,DTS6-6,FBN (FreshBurgersNow) Modify your current design so it looks like mine ERD and Data dictionary,Done,,DTS6 Sprint 6,,29/01/2024,,18/04/2024,purple
+DTS6-22,Story,DTS6-6,FBN - Designer - you link up all the tables in the FBN database using mysql.,Done,,DTS6 Sprint 6,,29/01/2024,,18/04/2024,purple
+DTS6-21,Story,DTS6-6,Create the tables according to my suggestions for FBN – Refer to recording.,Done,,DTS6 Sprint 6,,29/01/2024,,18/04/2024,purple
+DTS6-23,Story,DTS6-6,Chat GPT - generate a series of data - that corresponds to your tables and attributes,Done,,DTS6 Sprint 6,,29/01/2024,,18/04/2024,purple
+DTS6-7,Epic,,Week04,To Do,,,07/03/2024,07/03/2024,14/03/2024,14/03/2024,purple
+DTS6-27,Story,DTS6-7,Create a small scale PILOT for MKTIME using MySQL with the appropriate DDL SQL commands,Done,,DTS6 Sprint 6,,29/01/2024,,18/04/2024,purple
+DTS6-26,Story,DTS6-7,Create the Data Dictionary using the TEMPLATE (usual) one for MKTIME,Done,,DTS6 Sprint 6,,29/01/2024,,18/04/2024,purple
+DTS6-28,Story,DTS6-7,Insert the Data generated using ChatGPT to demonstrate MKTIME can be populated correctly,Done,,DTS6 Sprint 6,,29/01/2024,,18/04/2024,purple
+DTS6-25,Story,DTS6-7,Create the ERD according to the CASE STUDY provided for MKTIME,Done,,DTS6 Sprint 6,,29/01/2024,,18/04/2024,purple
+DTS6-29,Story,DTS6-7,"INSTALL WebStorm and attempt to import the Databases: College, FastBurgersNow - and show the data",Done,,DTS6 Sprint 6,,29/01/2024,,18/04/2024,purple
+DTS6-8,Epic,,Week05,To Do,,,14/03/2024,14/03/2024,21/03/2024,21/03/2024,purple
+DTS6-30,Story,DTS6-8,Provide the work for Jira - (mock assessment),Done,,DTS6 Sprint 6,,29/01/2024,,18/04/2024,purple
+DTS6-33,Story,DTS6-8,Read the information SCRUMS and SPRINTS for doing IT projects,Done,,DTS6 Sprint 6,,29/01/2024,,18/04/2024,purple
+DTS6-32,Story,DTS6-8,"Power BI to create at least 2 reports: orders, users and edit the report",Done,,DTS6 Sprint 6,,29/01/2024,,18/04/2024,purple
+DTS6-31,Story,DTS6-8,MKTIME database - use my sql file to create it with the records,Done,,DTS6 Sprint 6,,29/01/2024,,18/04/2024,purple
+DTS6-9,Epic,,Week06,To Do,,,21/03/2024,21/03/2024,28/03/2024,28/03/2024,purple
+DTS6-35,Story,DTS6-9,Work through the Ultimate Guide to mySQL roles,Done,,DTS6 Sprint 6,,29/01/2024,,18/04/2024,purple
+DTS6-36,Story,DTS6-9,Relate the roles and users and do it for mktime - make these according to worksheet,Done,,DTS6 Sprint 6,,29/01/2024,,18/04/2024,purple
+DTS6-34,Story,DTS6-9,Complete the Sprint Exercise for my own PD,To Do,,,,,,,purple
+DTS6-37,Story,DTS6-9,Excel Report for the items table in the mktime database,To Do,,,,,,,purple
+DTS6-10,Epic,,Week07,To Do,,,28/03/2024,28/03/2024,04/04/2024,04/04/2024,purple
+DTS6-11,Epic,,EASTER BREAK - PIZZA DAY,To Do,,,04/04/2024,04/04/2024,18/04/2024,18/04/2024,purple

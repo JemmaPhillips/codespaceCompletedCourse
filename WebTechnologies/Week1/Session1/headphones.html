@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item Form</title>
+</head>
+<body>
+    <h2>Add New Item</h2>
+    <form action="headphones.php" method="POST" enctype="multipart/form-data">
+        <label for="item_name">Item Name:</label><br>
+        <input type="text" id="item_name" name="item_name" required><br><br>
+        
+        <label for="item_desc">Item Description:</label><br>
+        <textarea id="item_desc" name="item_desc" rows="4" required></textarea><br><br>
+        
+        <label for="item_img">Item Image:</label><br>
+        <input type="file" id="item_img" name="item_img" accept="image/*" required><br><br>
+        
+        <label for="item_price">Item Price:</label><br>
+        <input type="number" id="item_price" name="item_price" step="0.01" required><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

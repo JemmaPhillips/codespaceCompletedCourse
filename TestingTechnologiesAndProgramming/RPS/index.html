@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>RPS</title>
+    <style>
+        .options{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Buttons-->
+    <div class="options">
+        <!-- "data-cy"is test tag for cypress and can be anything -->
+        <button data-cy="rock" id="rock">Rock</button>
+        <button data-cy="paper" id="paper">Paper</button>
+        <button data-cy="scissors" id="scissors">Scissors</button>
+    </div>
+   <br>
+    <!-- Info -->
+    <h2>Your Choice: <span data-cy="user" id="user-choice"></span></h2>
+    <h2>Computer Choice: <span data-cy="computer" id="computer-choice"></span> </h2>
+    <h2>Result: <span data-cy="result" id="result"></span></h2>
+
+    <script>
+        // Get the buttons
+        const rockBtn = document.getElementById("rock");
+        const paperBtn = document.getElementById("paper");
+        const scissorsBtn = document.getElementById("scissors");
+
+        // Get the spans
+        const userChoiceSpan = document.getElementById("user-choice");
+        const computerChoiceSpan = document.getElementById("computer-choice");
+        const resultSpan = document.getElementById("result");
+
+        // Defines options
+        const options = ["Rock", "Paper", "Scissors"];
+
+        // Add click events to the buttons
+        rockBtn.addEventListener("click", function(){
+            playGame(options[0]);  
+
+        });
+
+        paperBtn.addEventListener("click", function(){
+            playGame(options[1]);
+        });    
+
+        scissorsBtn.addEventListener("click", function(){
+            playGame(options[2]);
+        });   
+
+        // Play the game function
+        function playGame(userChoice) {
+            // Get the computer option
+            const computerChoice =options[Math.floor(Math.random() * options.length)];
+
+            // Set the user option
+            userChoiceSpan.innerHTML = userChoice;
+
+            // Set the computer option
+            computerChoiceSpan.innerHTML = computerChoice;
+
+            // Compare the options
+            // A draw
+            if(userChoice === computerChoice) {
+                resultSpan.innerHTML = "It's a tie!"
+            }
+            // The player wins
+            // Rock Vs Scissors
+            else if (userChoice === "Rock" && computerChoice === "Scissors") {
+                resultSpan.innerHTML = "You win!";
+            }
+            // Paper vs Rock
+            else if (userChoice === "Paper" && computerChoice === "Rock") {
+                resultSpan.innerHTML = "You win!";
+            }
+             // Scissors vs Paper
+             else if (userChoice === "Scissors" && computerChoice === "paper") {
+                resultSpan.innerHTML = "You win!";
+            }
+            // Otherwise
+            else {
+                resultSpan.innerHTML = "You lose!";
+            }
+        }
+    </script>
+
+</body>
+</html>
